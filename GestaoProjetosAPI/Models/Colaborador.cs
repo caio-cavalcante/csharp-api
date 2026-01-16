@@ -7,5 +7,7 @@ namespace GestaoProjetosAPI.Models
         public string Cargo { get; set; } = string.Empty;
         public decimal Salario { get; set; }
         public int ProjetoId { get; set; }
+
+        public string? NomeProjeto { get; set; }
     }
 }
